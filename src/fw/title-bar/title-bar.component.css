@@ -1,0 +1,17 @@
+:host {
+    display: flex;
+  }
+  
+  .title-bar {
+    display: flex;
+    flex-grow: 1;
+    min-height: 80px;
+  }
+  
+  .menu-area {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding-right: 20px;
+  }
+  

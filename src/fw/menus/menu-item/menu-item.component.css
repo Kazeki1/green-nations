@@ -63,7 +63,7 @@ span {
 }
 
 .router-link-active {
-    background-color: #dfd;
+    background-color:  #dfd;
 }
 
 .router-link-active.vertical-menu {

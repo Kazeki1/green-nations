@@ -12,10 +12,12 @@ import { ScreenBelowLarge } from './directives/screen-below-large.directive';
 import { MenuService } from './services/menu.service';
 import { MenuComponent } from './menus/menu/menu.component';
 import { MenuItemComponent } from './menus/menu-item/menu-item.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: [
     FrameworkBodyComponent,

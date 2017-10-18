@@ -7,9 +7,8 @@ import { MenuItem } from '../../services/menu.service';
   styleUrls: ['./menu-item.component.css']
 })
 export class MenuItemComponent implements OnInit {
-  @Input() item: MenuItem;
-  // @Input() item = <MenuItem>null;
-
+  // @Input() item: MenuItem;     // problem entry, use this work-around
+  @Input() item = <MenuItem>null;	// see angular/cli issue #2034
   constructor() { }
 
   ngOnInit() {
